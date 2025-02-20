@@ -28,6 +28,10 @@ main .image-container img {
     width: 150px;
     height: 150px;
 }
+main .small-images img {
+  width: 150px;
+  height: 100px;
+}
  main .description p {
     width: 500px;
  }
