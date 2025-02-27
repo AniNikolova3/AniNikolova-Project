@@ -1,8 +1,8 @@
 // let vs const
-let number: number = 5;
-number =10;
+let exnumber: number = 5;
+exnumber =10;
 
-const message: string = "Welcome";
+const exmessage: string = "Welcome";
 
 // string
 let welcomeMessage: string = "Hello, Peter!";
