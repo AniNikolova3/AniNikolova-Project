@@ -94,3 +94,26 @@ type PersonInfoType = string | number;
 
 const personNameInf: PersonInfoType = "Ivan";
 const personAgeInf: PersonInfoType = 25;
+
+type Status = "approved" | "rejected" | "pending" | "fullfiled";
+
+const currentStatus: Status = "fullfiled";
+
+type PersonData = {
+    name: string;
+    lastName: string;
+    age: number;
+    city1?: string;
+    city: "Sofia" | "Plovdiv" | "Varna";
+};
+
+ function displayPersonData({name, lastName, age, city}: PersonData) {
+   if (city) {
+   // return `${name} ${lastName}  from ${city}`;
+   console.log(`${name} ${lastName}  from ${city}`);
+   }
+
+   return `${name} ${lastName} is ${age} years old.`
+}
+
+
