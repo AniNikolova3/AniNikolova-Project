@@ -63,9 +63,22 @@ function calculateArea (
     width: number,
     height?: number
 ): number {
-    if (height == null)
-        return width*width;
-    else (height != 0)
-        return height*width;
+    if (height) {
+        return width * height;
+        } else {
+        return width * width;
+        }
 }
 console.log("Ex.10", calculateArea(10,11))
+
+//Ex. 10 - Variant 2: 
+     
+//  function calculateArea (
+//    width: number,
+//    height?: number
+//  ): number {   
+//  if (height == null)
+//    return width*width;
+//  else (height != 0)
+//    return height*width;
+//  }
