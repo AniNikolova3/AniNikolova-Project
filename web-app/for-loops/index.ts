@@ -70,17 +70,17 @@ for (let i = 0; i <= 5; i++) {
 //for loop over array
 let numberArr: number[] = [35, 25, 45, 50, 35, 25, 45, 50, 45, 50];
 
-for (let i = 0; i < numbersArray.length; i++) {
-  console.log(numberArr[i]);
-}
+// for (let i = 0; i < numbersArray.length; i++) {
+//   console.log(numberArr[i]);
+// }
 
-for (let i = 0; i < numbersArray.length; i++) {
-  if (numberArr[i] <= 25) {
-    console.log(numberArr[i]);
-  } else {
-    console.log(numberArr[i] / 2);
-  }
-}
+// for (let i = 0; i < numbersArray.length; i++) {
+//   if (numberArr[i] <= 25) {
+//     console.log(numberArr[i]);
+//   } else {
+//     console.log(numberArr[i] / 2);
+//   }
+// }
 
 //for loop incrementation
 for (let i = 0; i <= 9; i++) {
